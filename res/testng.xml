@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="好友成交页面" parallel="false" thread-count="1">
+
+    <test name="TestCase">
+        <classes>
+            <class name="TestGetBorrowInfo"/>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name="TestNGSimpleReport"/>
+        <listener class-name="TestNGListener"/>
+
+    </listeners>
+
+</suite>

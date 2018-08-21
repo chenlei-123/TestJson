@@ -1,0 +1,121 @@
+{
+   "data":
+   {
+      "autoProductSwitch":4,
+      "autoProductSwitchGoods":
+      {
+         "detailBottom":
+         [
+            {
+               "color":"test string",
+               "fontSize":1,
+               "icon":"test string",
+               "text":"test string",
+               "type":5
+            }
+
+         ],
+         "detailTop":
+         [
+            {
+               "color":"test string",
+               "fontSize":9,
+               "icon":"test string",
+               "text":"test string",
+               "type":2
+            }
+
+         ],
+         "title":
+         [
+            {
+               "color":"test string",
+               "fontSize":1,
+               "icon":"test string",
+               "text":"test string",
+               "type":3
+            }
+
+         ]
+
+      },
+      "borrowInAvailableLimit":0,
+      "borrowInSumLimit":7,
+      "capital":
+      {
+         "agreeFlag":6,
+         "isWhiteList":3,
+         "status":0
+      },
+      "contract":
+      {
+         "businessType":"test string",
+         "displayType":6,
+         "extraInfo":"test string",
+         "tipList":
+         [
+            {
+               "contentType":0,
+               "name":"test string",
+               "needHost":1,
+               "url":"test string"
+            }
+
+         ],
+         "versionList":
+         [
+            {
+               "key":"test string",
+               "value":3
+            }
+
+         ]
+
+      },
+      "defaultPublishDays":9,
+      "dialogs":
+      [
+         {
+            "limitContext":"test string",
+            "limitRate":8,
+            "max":3,
+            "min":7,
+            "promptRate":4
+         }
+
+      ],
+      "fillLawBookUrl":"test string",
+      "hasQuotaPromote":0,
+      "isNoticeFiltLawBook":6,
+      "isRiskLimitBorrowAmount":"test string",
+      "lawBookContent":"test string",
+      "lawBookTitle":"test string",
+      "lendQuotaTips":"test string",
+      "loanTermTips":"test string",
+      "maxLoanYears":0,
+      "maxPublishDays":2,
+      "minimalAmount":3,
+      "minimalAmountTip":"test string",
+      "popUpRouter":"test string",
+      "privateKey":"test string",
+      "repayMode":
+      [
+         {
+            "title":"test string",
+            "type":9
+         }
+
+      ],
+      "repaySource":
+      [
+         {
+            
+         }
+
+      ],
+      "yearRateMax":6,
+      "yearRateMin":8,
+      "yearRateTip":"test string"
+   }
+
+}

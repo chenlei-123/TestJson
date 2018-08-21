@@ -1,0 +1,263 @@
+==================================
+package com.rrh.json;
+public class Type
+{
+    private String fail;
+
+    private String success;
+
+    public void setFail(String fail){
+        this.fail = fail;
+    }
+    public String getFail(){
+        return this.fail;
+    }
+    public void setSuccess(String success){
+        this.success = success;
+    }
+    public String getSuccess(){
+        return this.success;
+    }
+}
+
+==================================
+package com.rrh.json;
+public class ResponseData
+{
+    private Type type;
+
+    public void setType(Type type){
+        this.type = type;
+    }
+    public Type getType(){
+        return this.type;
+    }
+}
+
+==================================
+package com.rrh.json;
+import java.util.ArrayList;
+import java.util.List;
+public class Message
+{
+    private String requestData;
+
+    private List<ResponseData> responseData;
+
+    public void setRequestData(String requestData){
+        this.requestData = requestData;
+    }
+    public String getRequestData(){
+        return this.requestData;
+    }
+    public void setResponseData(List<ResponseData> responseData){
+        this.responseData = responseData;
+    }
+    public List<ResponseData> getResponseData(){
+        return this.responseData;
+    }
+}
+
+==================================
+package com.rrh.json;
+import java.util.ArrayList;
+import java.util.List;
+public class Data
+{
+    private String apiCode;
+
+    private String apiJsonSchema;
+
+    private String apiName;
+
+    private int apiProtocol;
+
+    private int apiStatus;
+
+    private String apiUrl;
+
+    private int appID;
+
+    private String appName;
+
+    private String createTime;
+
+    private String createUser;
+
+    private String desc;
+
+    private String errorCode;
+
+    private boolean follow;
+
+    private String jsonStr;
+
+    private List<Message> message;
+
+    private String modifyTime;
+
+    private String modifyUser;
+
+    private int requestMethod;
+
+    public void setApiCode(String apiCode){
+        this.apiCode = apiCode;
+    }
+    public String getApiCode(){
+        return this.apiCode;
+    }
+    public void setApiJsonSchema(String apiJsonSchema){
+        this.apiJsonSchema = apiJsonSchema;
+    }
+    public String getApiJsonSchema(){
+        return this.apiJsonSchema;
+    }
+    public void setApiName(String apiName){
+        this.apiName = apiName;
+    }
+    public String getApiName(){
+        return this.apiName;
+    }
+    public void setApiProtocol(int apiProtocol){
+        this.apiProtocol = apiProtocol;
+    }
+    public int getApiProtocol(){
+        return this.apiProtocol;
+    }
+    public void setApiStatus(int apiStatus){
+        this.apiStatus = apiStatus;
+    }
+    public int getApiStatus(){
+        return this.apiStatus;
+    }
+    public void setApiUrl(String apiUrl){
+        this.apiUrl = apiUrl;
+    }
+    public String getApiUrl(){
+        return this.apiUrl;
+    }
+    public void setAppID(int appID){
+        this.appID = appID;
+    }
+    public int getAppID(){
+        return this.appID;
+    }
+    public void setAppName(String appName){
+        this.appName = appName;
+    }
+    public String getAppName(){
+        return this.appName;
+    }
+    public void setCreateTime(String createTime){
+        this.createTime = createTime;
+    }
+    public String getCreateTime(){
+        return this.createTime;
+    }
+    public void setCreateUser(String createUser){
+        this.createUser = createUser;
+    }
+    public String getCreateUser(){
+        return this.createUser;
+    }
+    public void setDesc(String desc){
+        this.desc = desc;
+    }
+    public String getDesc(){
+        return this.desc;
+    }
+    public void setErrorCode(String errorCode){
+        this.errorCode = errorCode;
+    }
+    public String getErrorCode(){
+        return this.errorCode;
+    }
+    public void setFollow(boolean follow){
+        this.follow = follow;
+    }
+    public boolean getFollow(){
+        return this.follow;
+    }
+    public void setJsonStr(String jsonStr){
+        this.jsonStr = jsonStr;
+    }
+    public String getJsonStr(){
+        return this.jsonStr;
+    }
+    public void setMessage(List<Message> message){
+        this.message = message;
+    }
+    public List<Message> getMessage(){
+        return this.message;
+    }
+    public void setModifyTime(String modifyTime){
+        this.modifyTime = modifyTime;
+    }
+    public String getModifyTime(){
+        return this.modifyTime;
+    }
+    public void setModifyUser(String modifyUser){
+        this.modifyUser = modifyUser;
+    }
+    public String getModifyUser(){
+        return this.modifyUser;
+    }
+    public void setRequestMethod(int requestMethod){
+        this.requestMethod = requestMethod;
+    }
+    public int getRequestMethod(){
+        return this.requestMethod;
+    }
+}
+
+==================================
+package com.rrh.json;
+public class Error
+{
+    private int returnCode;
+
+    private String returnMessage;
+
+    private String returnUserMessage;
+
+    public void setReturnCode(int returnCode){
+        this.returnCode = returnCode;
+    }
+    public int getReturnCode(){
+        return this.returnCode;
+    }
+    public void setReturnMessage(String returnMessage){
+        this.returnMessage = returnMessage;
+    }
+    public String getReturnMessage(){
+        return this.returnMessage;
+    }
+    public void setReturnUserMessage(String returnUserMessage){
+        this.returnUserMessage = returnUserMessage;
+    }
+    public String getReturnUserMessage(){
+        return this.returnUserMessage;
+    }
+}
+
+==================================
+package com.rrh.json;
+public class Root
+{
+    private Data data;
+
+    private Error error;
+
+    public void setData(Data data){
+        this.data = data;
+    }
+    public Data getData(){
+        return this.data;
+    }
+    public void setError(Error error){
+        this.error = error;
+    }
+    public Error getError(){
+        return this.error;
+    }
+}

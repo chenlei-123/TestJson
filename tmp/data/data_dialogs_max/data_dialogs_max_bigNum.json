@@ -1,0 +1,120 @@
+{
+   "data":
+   {
+      "autoProductSwitch":4,
+      "capital":
+      {
+         "isWhiteList":3,
+         "agreeFlag":6,
+         "status":0
+      },
+      "yearRateTip":"test string",
+      "repayMode":
+      [
+         {
+            "title":"test string",
+            "type":9
+         }
+
+      ],
+      "lendQuotaTips":"test string",
+      "yearRateMin":8,
+      "repaySource":
+      [
+         {
+            
+         }
+
+      ],
+      "dialogs":
+      [
+         {
+            "min":7,
+            "max":999999999,
+            "promptRate":4,
+            "limitContext":"test string",
+            "limitRate":8
+         }
+
+      ],
+      "isRiskLimitBorrowAmount":"test string",
+      "lawBookTitle":"test string",
+      "hasQuotaPromote":0,
+      "borrowInAvailableLimit":0,
+      "minimalAmount":3,
+      "maxPublishDays":2,
+      "lawBookContent":"test string",
+      "autoProductSwitchGoods":
+      {
+         "detailTop":
+         [
+            {
+               "color":"test string",
+               "icon":"test string",
+               "fontSize":9,
+               "text":"test string",
+               "type":2
+            }
+
+         ],
+         "title":
+         [
+            {
+               "color":"test string",
+               "icon":"test string",
+               "fontSize":1,
+               "text":"test string",
+               "type":3
+            }
+
+         ],
+         "detailBottom":
+         [
+            {
+               "color":"test string",
+               "icon":"test string",
+               "fontSize":1,
+               "text":"test string",
+               "type":5
+            }
+
+         ]
+
+      },
+      "popUpRouter":"test string",
+      "defaultPublishDays":9,
+      "fillLawBookUrl":"test string",
+      "contract":
+      {
+         "displayType":6,
+         "tipList":
+         [
+            {
+               "name":"test string",
+               "contentType":0,
+               "needHost":1,
+               "url":"test string"
+            }
+
+         ],
+         "versionList":
+         [
+            {
+               "value":3,
+               "key":"test string"
+            }
+
+         ],
+         "businessType":"test string",
+         "extraInfo":"test string"
+      },
+      "minimalAmountTip":"test string",
+      "borrowInSumLimit":7,
+      "loanTermTips":"test string",
+      "maxLoanYears":0,
+      "privateKey":"test string",
+      "isNoticeFiltLawBook":6,
+      "yearRateMax":6
+   }
+
+}
